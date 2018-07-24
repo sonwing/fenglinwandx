@@ -1,9 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>无标题文档</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .container{
+        width: 1000px;
+        margin:0 auto;
+        background-color: #ccc;
+    }
+    .header{
+        width: 100%;
+        height: 90px;
+        background-color: #ddd;
+    }
+    .main{
+        width: 100%;
+        height: 465px;
+        background-color: #123;
+    }
+    .advertisement{
+        overflow: hidden;
+    }
+    .advertisementL{
+        width: 270px;
+        height: 385px;
+        background-color: #abc;
+        display: inline-block;
+    }
+    .advertisementR{
+        width: 725px;
+        height: 385px;
+        background-color: rgb(124, 162, 201);
+        display: inline-block;
+    }
+    .advertisementF{
+        width: 100%;
+        height: 235px;
+        background-color: rgb(170, 238, 200);
+        
+    }
+    .footer{
+        width: 100%;
+        height: 96px;
+        background-color: #ddd;
+    }
+    </style>
 </head>
-
 <body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="main"></div>
+        <div class="advertisement">
+            <div class="advertisementL fl"></div>
+            <div class="advertisementR fr"></div>
+            <div class="advertisementF fl"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
 </body>
 </html>
